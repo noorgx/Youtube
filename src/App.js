@@ -22,7 +22,6 @@ function App() {
         <Route path="/channel/:id" element={<ChannelDetails />} />
         <Route path="/search/:id" element={<SearchFeed />} />
         <Route path="/watch/:id" element={<VideoDetails />} />
-        <Route path="*" element={<Navigate to="/" />} />
       </Routes>
     </Router>
   );
