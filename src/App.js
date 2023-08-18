@@ -5,7 +5,7 @@ import {
   Sidebar,
   VideoDetails,
 } from "./pages/index";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import { red } from "@mui/material/colors";
 import Stack from "@mui/material/Stack";
 import LinearProgress from "@mui/material/LinearProgress";
